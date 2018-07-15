@@ -18,7 +18,7 @@ app.get('/sample/:message', (req, res) => {
 
 /**
  * @api {get} / hello world sample request
- * @apiName GetSample
+ * @apiName GetBase
  * @apiSuccess (Success_200) {String} data the hello world data
  * @apiSuccess (Success_200) {String} output what the user entered in the url
  */
