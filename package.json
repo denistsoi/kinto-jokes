@@ -4,21 +4,22 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js",
+    "start": "PORT=3000 node index.js",
     "prod": "PORT=80 node index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/denistsoi/kinto-jokes.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Denis Tsoi <denistsoi@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/denistsoi/kinto-jokes/issues"
   },
   "homepage": "https://github.com/denistsoi/kinto-jokes#readme",
-  "dependencies": {},
-  "devDependencies": {
-    "express": "^4.16.3"
-  }
+  "dependencies": {
+    "micro": "^9.3.2",
+    "node-fetch": "^2.2.0"
+  },
+  "devDependencies": {}
 }

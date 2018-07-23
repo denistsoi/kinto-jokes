@@ -12,4 +12,4 @@ ENV PORT=80
 
 EXPOSE 80
 
-ENTRYPOINT ["npm","run","start"]
+ENTRYPOINT ["npm", "run", "prod"]
